@@ -5,6 +5,10 @@ body {
     /* font-family: 'lato', sans-serif; */
 }
 
+#header-btn {
+    margin-left: 240px;
+}
+
 .hot-deals-banner {
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
@@ -34,7 +38,7 @@ body {
 }
 
 .hot-deals-banner-pic {
-   
+
     height: 500px;
     padding-top: 100px;
     padding-right: 430px;
@@ -76,7 +80,7 @@ span {
     font-weight: 400px;
 }
 
-.btn-primary {
+/* .btn-primary {
     border-radius: 8px;
     background: #E55473;
 
@@ -88,7 +92,20 @@ span {
     font-family: Lato;
     font-size: 20px;
 
+} */
+
+.btn-primary {
+    border-radius: 8px;
+    background: #E55473;
+    border: 0px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    color: #FFF;
+    padding: 15px 35px;
+
 }
+
 
 .banner-pic {
     width: 635px;
@@ -218,4 +235,160 @@ a {
     font-weight: 600;
     line-height: 35px;
     /* 145.833% */
+}
+
+.insta-title {
+    color: #272727;
+    text-align: center;
+
+    font-size: 40px;
+
+    font-weight: 800;
+
+}
+
+.insta-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+
+    font-size: 18px;
+
+    font-weight: 40;
+
+}
+
+.flower-pic {
+    display: flex;
+    gap: 2px;
+    height: 396px;
+    justify-content: space-between;
+    margin-left: 240px;
+    margin-right: 240px;
+    margin-top: 80px;
+
+}
+
+.latest-deals {
+    margin-top: 130px;
+    margin-left: 240px;
+    margin-right: 240px;
+    background-image: url('/Flower\ Asset/Rectangle 9.png');
+    background-repeat: no-repeat;
+    height: 500px;
+    background-size: cover
+    
+}
+
+.latest-deals-title {
+    color: #272727;
+    text-align: center;
+    padding-top: 120px;
+    font-size: 40px;
+
+    font-weight: 800;
+
+}
+
+.latest-deals-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+
+    font-size: 18px;
+    padding-bottom: 100px;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+
+
+.email {
+    width: 800px;
+    height: 64px;
+    border: none;
+    padding-top: 280;
+    padding-left: 20px;
+    border-radius: 8px;
+    background: #FFF;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+/* form style */
+.form {
+    display: flex;
+    background: rgba(229, 84, 115, 0.10);
+    margin-top: 100px;
+    padding: 130px 200px;
+    gap: 100px;
+
+}
+
+.form-column {
+    width: 50%;
+}
+
+.contact input[type="text"],
+.contact input[type="email"],
+.contact input[type="textarea"],
+textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+
+    color: #757575;
+    border: none;
+    border-radius: 5px;
+    background: #FFF;
+    width: 100%;
+}
+
+.reset {
+
+    border-radius: 8px;
+
+    border-color: palevioletred;
+    font-size: 20px;
+    padding-right: 50px;
+    padding-left: 40px;
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    justify-content: left;
+
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+.last-title {
+
+
+    font-size: 48px;
+
+    font-weight: 800;
+
+}
+
+.last-description {
+    color: rgba(255, 255, 255, 0.90);
+
+    font-size: 18px;
+
+}
+
+.copy-rights {
+    color: rgba(255, 255, 255, 0.40);
+
+    font-size: 16px;
+
+    font-weight: 400;
+
+}
+.white{
+    color: #FFF;
 }
